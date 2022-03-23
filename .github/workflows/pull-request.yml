@@ -27,7 +27,7 @@ jobs:
 
       - name: Generate delta
         run: |
-          sfdx sgd:source:delta -d -f "master" -o "output" -s "sgd/reproduction/playground" -r "."
+          sfdx sgd:source:delta -d -f "origin/master" -o "output" -s "sgd/reproduction/playground" -r "."
           cat output/package/package.xml
           cat output/destructiveChanges/destructiveChanges.xml
           tree output/sgd/reproduction/playground
