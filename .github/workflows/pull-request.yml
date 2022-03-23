@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: '14.x'
 
-      - name: Install SFDC CLI
+      - name: Install SFDX CLI
         run: npm install -g sfdx-cli
 
       - name: Install SGD
