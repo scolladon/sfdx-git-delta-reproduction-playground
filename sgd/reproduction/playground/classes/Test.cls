@@ -1,4 +1,5 @@
-
 public class Test {
-    System.debug("Hello World");
+   public static void sayHello(){
+        System.debug('Test');
+   } 
 }
