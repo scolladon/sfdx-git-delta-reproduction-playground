@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkflowFlowAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Populate_PBA_from_Primary_CDM_User_record</fullName>
+    <flow>Populate_Account_PBA_from_Primary_CDM_User_record</flow>
+    <flowInputs>
+        <name>AccountID</name>
+        <value>{!Id}</value>
+    </flowInputs>
+    <flowInputs>
+        <name>AccountOwner</name>
+        <value>{!CDM__r.Id}</value>
+    </flowInputs>
+    <label>Populate PBA from Primary  CDM User record</label>
+    <language>en_US</language>
+    <protected>false</protected>
+</WorkflowFlowAction>
