@@ -1,0 +1,54 @@
+{
+  "appPageId" : "e555756e-4771-454e-881d-64e35b193b38",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "45855ebd-0690-49f5-88d5-2c4f21ff7fbf",
+  "label" : "User Settings",
+  "regions" : [ {
+    "id" : "5931701e-e148-4360-9dba-112590a4a568",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "accountSectionTitle" : "Account",
+        "accountTabName" : "Account Management",
+        "connectedSourcesTabName" : "Connected Sources",
+        "deleteAccountButtonTitle" : "Deactivate My Account",
+        "deleteAccountConfirmationPopupBody" : "After you deactivate your account, you'll lose access to this site.",
+        "deleteAccountConfirmationPopupButtonTitle" : "Got It",
+        "deleteAccountConfirmationPopupTitle" : "Deactivate your account?",
+        "deleteAccountErrorMessage" : "Something went wrong. Contact your site administrator.",
+        "deleteAccountSectionTitle" : "Deactivate Account",
+        "emailNotificationsTitle" : "Email Notifications",
+        "emailSectionDescText" : "When email notifications are enabled, email me when someone:",
+        "hideAccountDeleteSection" : true,
+        "hideChatterNotificationSettings" : true,
+        "hideConnectedSources" : false,
+        "hideEmailNotificationSettings" : false,
+        "hideProfileVisibilitySettings" : true,
+        "id" : "{!recordId}",
+        "locationTitle" : "Location",
+        "profileSectionDescText" : "Customize who is able to see what on your profile page",
+        "profileSectionToolTipText" : "Restricted: Visible to the employees of the company that created the site. Members: Visible to logged-in members. Public: Visible to anyone viewing pages that don't require login.",
+        "profileVisibilityTitle" : "Profile Visibility",
+        "settingsPageTitle" : "My Settings"
+      },
+      "componentName" : "forceCommunity:userSettingsCustomizable",
+      "id" : "49a181bc-cff8-413d-bbb9-6b10c7b0b1e4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e212f615-6a15-4af5-930a-60858a1fa799",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "2a4c4707-c01c-40ee-9393-744297ff3478",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "usersettings"
+}

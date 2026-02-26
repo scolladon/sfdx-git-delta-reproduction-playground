@@ -3,6 +3,10 @@
 		{
 			"path": "sgd",
 			"default": true
+		},
+		{
+			"path": "sgd/portals",
+			"default": false
 		}
 	],
 	"namespace": "",
